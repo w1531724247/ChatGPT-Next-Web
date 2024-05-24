@@ -24,6 +24,7 @@ import {
   NARROW_SIDEBAR_WIDTH,
   Path,
   REPO_URL,
+  SHOP_URL
 } from "../constant";
 
 import { Link, useNavigate } from "react-router-dom";
@@ -155,7 +156,7 @@ export function SideBar(props: { className?: string }) {
     >
       <div className={styles["sidebar-header"]} data-tauri-drag-region>
         <div className={styles["sidebar-title"]} data-tauri-drag-region>
-          GPT-Pro
+          OK-GPT
         </div>
         <div className={styles["sidebar-sub-title"]}>
           Your own AI assistant.
@@ -217,6 +218,9 @@ export function SideBar(props: { className?: string }) {
             </Link>
           </div>
           <div className={styles["sidebar-action"]}>
+            <a href={SHOP_URL} target="_blank" rel="noopener noreferrer">
+              <IconButton icon={<ChatGptIcon />} shadow />购买额度
+            </a>
             
           </div>
         </div>

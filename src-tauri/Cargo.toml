@@ -1,11 +1,11 @@
 [package]
-name = "GPT-Pro"
+name = "OK-GPT"
 version = "0.1.0"
 description = "A cross platform app for LLM ChatBot."
 authors = ["Yidadaa"]
 license = "mit"
 repository = ""
-default-run = "GPT-Pro"
+default-run = "OK-GPT"
 edition = "2021"
 rust-version = "1.60"
 
