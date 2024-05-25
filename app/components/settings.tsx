@@ -55,6 +55,7 @@ import {
   Azure,
   Google,
   OPENAI_BASE_URL,
+  GPTPRO_BASE_URL,
   Path,
   RELEASE_URL,
   STORAGE_KEY,
